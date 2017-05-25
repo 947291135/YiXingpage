@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/featureCarousel.min.css">
+	<script type="text/javascript" src="js/jquery.1.9.1.min.js"></script>
+</head>
+<body>
+<!-- top -->
+<div class="top">
+	<div class="box">
+		<div class="logo">
+			<a href=""><img src="img/logo.png"></a>
+		</div>
+		<div class="mune">					
+			<a href="https://www.szxydjr.com/index.html">返回首页</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<!-- banner -->
+<div class="banner">
+	<div class="box_b">
+		<div class="regbox">
+        	<div class="headwear">马上注册，立享288元红包</div>
+            <form>
+            	<div class="group_a">
+            		<input type="text" name="phone" value="" placeholder="请输入手机号码">
+					<input type="text" name="password" placeholder="请输入密码">
+            		<span class="ps errors_phone"></span>
+            	</div>
+            	<div class="group_b">
+            		<input type="text" name="pcode" value="" placeholder="图形验证码">
+            		 <span><a id="reg_change_code_image" title="换一张" onclick="reg_change_code_image(this,'reg_yzm','82')" href="javascript:;">
+                    	<img src="img/1457329606.0118.jpg" width="90" height="42" style="border:0;" alt=" "></a></span>
+            	</div>
+            	<div class="group_b">
+            		<input type="text" name="code" placeholder="短信验证码">
+            		<span class="fr"><a class="replayagain bian btn" href="javascript:getCode();">获取验证码</a></span>
+            	</div>
+                <div class="clear"></div>
+                <div class="submit">注册新红包</div>
+                <div class="line ct"><a>已有账号,</a><a href="">立即登录</a><input name="Fruit" type="radio" style="margin: -4px -6px 0 8px;" value="" /><a href="">阅读并同意服务协议</a></div>           	
+            </form>
+        </div>
+		<div class="clear"></div>
+	</div>
+</div>
+<!-- leader -->
+<div class="box">
+<div class="leader">
+  
+  <div class="leader_1">
+    <div><img src="img/tips2.png" width="80" height="80">
+	</div>	
+	<div>
+	<span>品牌优势</span><p>胡润新金融百强</p>
+	</div>
+  </div>
+  
+  <div class="leader_2">
+    <div><img src="img/tips3.png" width="80" height="80">
+	</div>	
+	<div>
+	<span>稳健收益</span><p>高收益 低风险</p>
+	</div>
+  </div>
+  
+  <div class="leader_3">
+    <div><img src="img/tips4.png" width="80" height="80">
+	</div>	
+	<div>
+	<span>合法合规</span><p>重资保障 公开透明</p>
+	</div>
+  </div>
+  
+  <div class="leader_4">
+    <div><img src="img/tips1.png" width="80" height="80">
+	</div>	
+	<div>
+	<span>安全保障</span><p>第三方托管 账户安全</p>
+	</div>
+  </div>
+</div>
+</div>
+
+<!-- cont_ma -->
+	<div class="ct_ma">
+		<div class="box">
+			<div class="ct_title">
+				<h3>新手福利</h3>
+			</div>
+			<div class="cta_main">
+				<div><a href="#"><img src="img/hongbao.jpg" width="1050" alt=""></a>
+	            </div>			
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+
+
+
+<!-- cont_mc -->
+<div class="cont_mc">
+	<div class="box">
+		<div class="ct_titlee">
+			<h3>理财专享</h3>
+		</div>
+		<div class="ctc_main">
+			<div class="ctc_list">
+				<h3>汽车贷款</h3>				
+				<i>12.6%</i>
+				<p>还款日期：<span>15天</span></p>
+				<p>可投金额：<span>1500</span></p>
+				<a href="">立即查看</a>
+			</div>
+			<div class="ctc_list">
+				<h3>房企贷款</h3>			
+				<i>13.5%</i>
+				<p>还款日期：<span>30天</span></p>
+				<p>可投金额：<span>2500</span></p>
+				<a href="">立即查看</a>
+			</div>
+			<div class="ctc_list">
+				<h3>产业链</h3>				
+				<i>10.7%</i>
+				<p>还款日期：<span>90天</span></p>
+				<p>可投金额：<span>4500</span></p>
+				<a href="">立即查看</a>
+			</div>	
+					
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+
+<!-- cont_mb -->
+<div class="lunbo">
+	<div class="box">
+		<div class="ct_title1"><h3>新闻中心</h3></div>
+		<div id="featureCarousel" style="height:450px; margin-top:130px;">
+		            <div class="feature" style="left: 170px; width: 660px; height: 400px; top: 20px; opacity: 1; z-index: 4;">
+		                <a><img src="img/tplb1.jpg" style="width: 660px; display: inline-block; height: 400px;"></a>
+		                <div style="display: block; opacity: 1;">
+		                    <p>兴易贷荣获第三届“创互联网金融无限未来”</p>
+		                    <span></span>
+		                </div>
+		            </div>
+		            <div class="feature" style="left: 439px; width: 561px; height: 340px; top: 47px; opacity: 1; z-index: 1;">
+		                <a><img  src="img/tplb2.jpg" style="width: 561px; display: inline-block; height: 340px;"></a>
+		                <div style="display: none; opacity: 1;">
+		                    <p>兴易贷荣获第三届“创互联网金融无限未来”</p>
+		                    <span></span>
+		                </div>
+		            </div>
+		            <div class="feature" style="left: 219.5px; width: 561px; height: 340px; top: 47px; opacity: 0; z-index: 1;">
+		                <a><img  src="img/tplb3.jpg" style="width: 561px; display: inline-block; height: 340px;"></a>
+		                <div style="display: none; opacity: 1;">
+		                    <p>兴易贷荣获第三届“创互联网金融无限未来”</p>
+		                    <span></span>
+		                </div>
+		            </div>
+		            <div class="feature" style="left: 219.5px; width: 561px; height: 340px; top: 47px; opacity: 0; z-index: 1;">
+		                <a><img  src="img/tplb4.jpg" style="width: 561px; display: inline-block; height: 340px;"></a>
+		                <div style="display: none; opacity: 1;">
+		                    <p>兴易贷荣获第三届“创互联网金融无限未来”</p>
+		                    <span></span>
+		                </div>
+		            </div>
+		            <div class="feature" style="left: 219.5px; width: 561px; height: 340px; top: 47px; opacity: 0; z-index: 1;">
+		                <a><img  src="img/tplb5.jpg" style="width: 561px; display: inline-block; height: 340px;"></a>
+		                <div style="display: none; opacity: 1;">
+		                    <p>兴易贷荣获第三届“创互联网金融无限未来”</p>
+		                    <span></span>
+		                </div>
+		            </div>
+		            <div class="feature" style="left: 0px; width: 561px; height: 340px; top: 47px; opacity: 1; z-index: 1;">
+		                <a><img  src="img/tplb6.jpg" style="width: 561px; display: inline-block; height: 340px;"></a>
+		                <div style="display: none; opacity: 1;">
+		                    <p>兴易贷荣获第三届“创互联网金融无限未来”</p>
+		                    <span></span>
+		                </div>
+		            </div>
+		        </div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+
+<!-- cont_me -->
+<div class="cont_me">
+	<div class="box">
+		<div class="cte_main">			
+			<a href="#">领取红包</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<!-- footer -->
+<div class="box_a" style="background:#3E3B3B;margin:0;width:100%;">
+<div class="footer">
+	<div class="about">		
+		<div class="main">
+			<dl>
+				<dt>信息披露</dt>
+				<dd><a href="#">平台简介</a></dd>
+				<dd><a href="#">网站公告</a></dd>
+				<dd><a href="#">最新动态</a></dd>
+				<dd><a href="#">招贤纳士</a></dd>
+			</dl>
+			<dl>
+				<dt>我要投资</dt>
+				<dd><a href="#">项目直投</a></dd>
+				<dd><a href="#">债权受让</a></dd>
+				<dd><a href="#">实物竞买</a></dd>
+				<dd><a href="#">收益计算器</a></dd>
+			</dl>
+			<dl>
+				<dt>我是新手</dt>
+				<dd><a href="#">新手指引</a></dd>
+				<dd><a href="#">免费注册</a></dd>
+				<dd><a href="#">安全保障</a></dd>
+				<dd><a href="#">常见问题</a></dd>
+			</dl>
+			<p>
+				<img src="img/ewm.png" style="width: 130px;height: 120px" alt="">
+				<span>兴易贷手机APP</span>
+			</p>
+			<p id="select_weibu">
+				<img src="img/weibo.png" style="width: 130px;height: 120px" alt="">
+				<img src="img/qq.png" style="width: 130px;height: 120px" alt="" class="hide">
+				<img src="img/weixin.jpg" style="width: 130px;height: 120px" alt="" class="hide">
+				<span>兴易贷微博</span>
+			</p>
+
+			<div class="p_phone" style="float:left; margin-left:100px;margin-top:30px;">
+				<div>
+					<strong>400-001-9966</strong>
+					<div class="clear"></div>
+					<em>(法定工作时间 09:30-17:00)</em>
+				</div>
+				<div>
+   					<div class="sinab1" style="height:24px;width: 24px;float:left;margin-left:15px;">
+   					    <img alt="" src="img/sinaB.png" style="width:24px;height:24px;float:right;">
+   					</div>
+   					<div class="QQb1" style="height:24px;width: 24px;float:left;margin-left:15px;">
+   					    <img alt="" src="img/QQB.png" style="width:24px;height:24px;float:right;">
+   					</div>
+   					<div class="weixinb" style="height:24px;width: 24px;float:left;margin-left:15px;">
+   					    <img alt="" src="img/wechatB.png" style="width:24px;height:24px;float:right;">
+   					</div>
+   				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="wei">
+		<div class="box_a">
+			<p>© 2015-2016 兴易贷 All rights reserved | 深圳兴易贷互联网金融服务有限公司|粤ICP备15100157号</p>
+		</div>
+		</div>
+	</div>
+	</div>
+
+</div>
+<script>
+	$(function(){
+		$('.sinab1').mouseover(function(){
+			$('#select_weibu img').removeClass('show').addClass('hide');
+			$('#select_weibu img').eq(0).removeClass('hide').addClass('show');
+			$('#select_weibu span').text('兴易贷微博');
+		});
+		$('.QQb1').mouseover(function(){
+			$('#select_weibu img').removeClass('show').addClass('hide');
+			$('#select_weibu img').eq(1).removeClass('hide').addClass('show');
+			$('#select_weibu span').text('兴易QQ号');
+		});
+		$('.weixinb').mouseover(function(){
+			$('#select_weibu img').removeClass('show').addClass('hide');
+			$('#select_weibu img').eq(2).removeClass('hide').addClass('show');
+			$('#select_weibu span').text('兴易贷公众号');
+		});
+	})
+</script>
+<script type="text/javascript" src="js/jquery.featureCarousel.min.js"></script>
+</body>
+</html>
